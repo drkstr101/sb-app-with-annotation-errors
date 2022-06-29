@@ -1,0 +1,3 @@
+[submodule "stackbit"]
+	path = stackbit
+	url = https://github.com/stackbit/stackbit.git
