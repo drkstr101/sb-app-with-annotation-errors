@@ -3,15 +3,15 @@ name: CardGridSection
 label: Card Grid
 labelField: heading
 groups:
-  - sectionComponent
+    - sectionComponent
 fields:
-  - type: string
-    name: heading
-    label: Title
-  - type: markdown
-    name: subheading
-  - type: list
-    name: cards
-    items:
-      type: model
-      models: [Card]
+    - type: string
+      name: heading
+      label: Title
+    - type: markdown
+      name: subheading
+    - type: list
+      name: cards
+      items:
+          type: model
+          models: [Card]

@@ -1,3 +1,3 @@
-const withSourcebit = require("sourcebit").sourcebitNext();
+const withSourcebit = require('sourcebit').sourcebitNext();
 
 module.exports = withSourcebit({});

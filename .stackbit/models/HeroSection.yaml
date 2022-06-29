@@ -3,14 +3,14 @@ name: HeroSection
 label: Hero
 labelField: heading
 groups:
-  - sectionComponent
+    - sectionComponent
 fields:
-  - type: string
-    name: heading
-  - type: markdown
-    name: subheading
-  - type: list
-    name: buttons
-    items:
-      type: model
-      models: [Button]
+    - type: string
+      name: heading
+    - type: markdown
+      name: subheading
+    - type: list
+      name: buttons
+      items:
+          type: model
+          models: [Button]
